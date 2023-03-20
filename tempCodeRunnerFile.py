@@ -1,0 +1,2 @@
+
+exampleObj = pickle.load(fileObj)

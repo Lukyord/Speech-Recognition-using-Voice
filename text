@@ -1,0 +1,62 @@
+# NOT IN USE
+#
+# --------------------------------------------------------------------------------------
+# ======================= Load extracted features from each data =======================
+# fileObj = open('dataset\mfcc\X3E_mfcc40_TRCS.obj', 'rb')
+# ExtractedFeatures = pickle.load(fileObj)
+# fileObj.close()
+# print(ExtractedFeatures)
+
+# ======================= Load test object =======================
+# fileObj = open('test_objects\TestNegative.obj', 'rb')
+# exampleObj = pickle.load(fileObj)
+# fileObj.close()
+# print(exampleObj)
+# --------------------------------------------------------------------------------------
+
+#  filename ='temp.wav'# <------ Change file path here './test_objects/happy1.mp3'
+#       format = filename[-3:]
+#       if (format != 'wav'):
+#         audio_file = AudioSegment.from_file(filename, format=format)
+#         audio_file.export("output.wav", format='wav')
+#         print(f"\n Change file format and export as output.wav. \n")
+
+#       # wait for file export before continue the code
+#       while not os.path.exists("output.wav"):
+#         print('waiting')
+#         time.sleep(1)
+
+
+  # # Extract Feature from voice recording
+  #     if (format != 'wav'):
+  #       mfcc = extract_mfcc("output.wav")
+
+#  try:
+#           os.remove("output.wav")
+#           print(f"The file output.wav has been removed.\n")
+          
+#           # Wait for the file to be completely removed
+#           while os.path.exists("output.wav"):
+#               time.sleep(0.1)
+#           # Continue with the rest of the code
+#           print("File removal is complete. Continuing with the rest of the code...\n")
+#       except FileNotFoundError:
+#           print(f"The file does not exist.\n")
+#       except PermissionError:
+#           print(f"You do not have permission to remove the file.\n")
+
+      # ===== STEP: 5 =====
+      # remove file
+    #   try:
+    #       os.remove("temp.wav")
+    #       print(f"The file output.wav has been removed.\n")
+          
+    #       # Wait for the file to be completely removed
+    #       while os.path.exists("temp.wav"):
+    #           time.sleep(0.1)
+    #       # Continue with the rest of the code
+    #       print("File removal is complete. Continuing with the rest of the code...\n")
+    #   except FileNotFoundError:
+    #       print(f"The file does not exist.\n")
+    #   except PermissionError:
+    #       print(f"You do not have permission to remove the file.\n")
